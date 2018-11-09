@@ -1,0 +1,60 @@
+header {
+  background: rgb(41, 37, 75);
+  padding: 12px;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+  border: 1px solid #ffffff;
+}
+
+header a {
+  text-decoration: none;
+  color : #ffffff;
+  padding: 12px;
+  display: block;
+}
+.hero {
+  background: rgb(05, 0, 0) url('images/bg-xl-1440.jpg') top center no-repeat;
+  color : #fff;
+  min-height: 100vh;
+}
+
+section {
+  min-height: 90vh;
+  padding: 42px;
+}
+
+.odd {
+  background: rgb(139, 132, 142);
+}
+
+.even {
+  background: rgb(229, 141, 237);
+}
+
+.image-block {
+  max-width: 640px;
+  border: 12px solid #000;
+}
+
+.image-block img {
+  width : 100%;
+display:block;
+}
+
+figcaption {
+  font-family: 'Fahkwang', serif;
+  font-style: italic;
+
+}
+
+footer {
+  min-height: 600px;
+  background: #000;
+  color : #fff;
+}
